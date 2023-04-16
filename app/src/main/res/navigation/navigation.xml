@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeActivity">
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.androidproject.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps">
+        <argument
+            android:name="longitude"
+            android:defaultValue="26.102446"
+            app:argType="float" />
+        <argument
+            android:name="latitude"
+            android:defaultValue="44.435470"
+            app:argType="float" />
+        <deepLink
+            android:id="@+id/deepLink3"
+            app:uri="https://www.example.com/{longitude}/{latitude}/" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.androidproject.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"/>
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.androidproject.HomeActivity"
+        android:label="HomeActivity">
+    </activity>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.androidproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.androidproject.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/signupActivity"
+        android:name="com.example.androidproject.SignupActivity"
+        android:label="activity_signup"
+        tools:layout="@layout/activity_signup">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="example.com/signup" />
+    </activity>
+</navigation>

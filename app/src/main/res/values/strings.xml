@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lost &amp; Found</string>
+    <string name="email_address">Email Address</string>
+    <string name="log_in">Log In</string>
+    <string name="password">Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="new_user_sign_up">New User? Sign Up</string>
+    <string name="google_logo">Google Logo</string>
+    <string name="logo">Logo</string>
+    <string name="client_id">83826373781-qekmjidhhhmus058e3g5ce8f01c6083s.apps.googleusercontent.com</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="display_name">Display Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="found_a_lost_item">Found a lost item?</string>
+    <string name="submit_lost_item">Submit Lost Item</string>
+    <string name="short_description">Short Description</string>
+    <string name="item_name">Item Name</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="share_a_lost_item">Share a lost item</string>
+    <string name="no_data_available">No lost items at this time</string>
+</resources>
